@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 1200px;
+}
+/* navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: #092c4f;
+    height: 50px;
+    
+   
+   
+}
+/* navlinks */
+.navlinks a{
+    text-decoration: none;
+   
+    margin-right: 0px;
+    color: white;
+    border: 1px solid #092c4f;
+    padding: 14px 17px;
+}
+.active{
+    background-color: cornflowerblue;
+}
+
+.hover:hover{
+    background-color: rgb(54, 60, 116);
+}
+/* logo  */
+
+.logoimg{
+    margin-left: 25px;
+    width: 58px;
+    filter: invert(100%);
+}
+
+/* home */
+.home{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("back.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 2px solid black;
+}
+.btn{
+    border: 1px solid white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: white;
+    margin-top: 5px;
+}
+.btn:hover{
+    font-size: 25px;
+    border-color: black;
+    transition: 0.7s;
+    
+}
+.h-pri{
+    font-size: 35px;
+    padding: 12px ;
+    /* text-decoration: underline black; */
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.services-conter{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #dbdbe1;
+    height: 900px;
+    /* flex-wrap: wrap; */
+}
+
+.h-pri2{
+font-size: 40px;
+text-decoration: underline black;
+font-family: 'Roboto Condensed', sans-serif;
+margin-bottom: 0px;
+background-color: #dbdbe1;
+}
+.box-1{
+    border: 2px solid black;
+    padding: 12px 12px;
+    width: 450px;
+    height: 250px;
+    background-image: url("pizza.jpg");
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+margin-right: 5px;
+}
+.box-2{
+    margin-top: 0px;
+    border: 2px solid black;
+    padding: 12px 12px;
+    width: 450px;
+    height: 250px;
+    background-image: url("Burgers.jpg");
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+.box-3{
+    margin-top: 0px;
+    border: 2px solid black;
+    padding: 12px 12px;
+    width: 450px;
+    height: 250px;
+    background-image: url("painpure.webp");
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+margin-left: 5px;
+}
+
+
+
+
+
+
+.h2-secondaryp{
+    text-decoration: underline rgb(39, 38, 38);
+    
+}
+
+
+@media only screen and (max-width:1024px){
+
+    #navbar{
+        flex-direction: column;
+        padding-bottom: 45px;
+    } 
+    
+    .h-pri{
+        font-size: 20px;
+    }
+    
+    .home p{
+        font-size: 11px;
+    }
+    
+    .services-conter{
+        flex-direction: column;
+    }
+    .box-1{
+        overflow: scroll;
+        width: 350px;
+    }
+    .box-2{
+        margin-top: 5px;
+        overflow: scroll;
+        width: 350px;
+
+    }
+    .box-3{
+        margin-top: 5px;
+        margin-left: 0px;
+        overflow: scroll;
+        width: 350px;
+
+
+    }
+
+
+}
+
+
+
+
+
